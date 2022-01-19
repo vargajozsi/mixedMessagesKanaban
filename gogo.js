@@ -11,3 +11,4 @@ function randomWords(threeFrom) {
     return threeFrom[numFromWords];
 };
 
+console.log(`What is your random ELF name ? You are: ${randomWords(words.first)} ${randomWords(words.middle)} ${randomWords(words.end)} `);
