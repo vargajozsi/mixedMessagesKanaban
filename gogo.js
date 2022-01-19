@@ -4,4 +4,10 @@ const words = {
     end: ["Angel", "Evergreen", "Ornament", "Tinsel", "Cookie", "Snowman", "Gumdrop", "Sleigh bells", "Cupcake", "Reindeer", "Candy cane", "Garland"]
 }
 
-console.log(...words.first);
+
+//Generate random word from element of words along the parameter
+function randomWords(threeFrom) {
+    const numFromWords = Math.floor((Math.random() * threeFrom.length));
+    return threeFrom[numFromWords];
+};
+
